@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityCategories">
+
+
+    <EditText
+        android:id="@+id/namecategoria"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:hint="Nombre de la categoria" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:hint="Id de la categoria" />
+
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/actualizar"
+        android:layout_marginBottom="209dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:layout_above="@+id/eliminar"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/enviar"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="154dp"
+        android:text="Actualizar" />
+
+    <Button
+
+        android:id="@+id/consultar"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/eliminar"
+        android:layout_marginBottom="98dp"
+        android:background="@color/colorPrimary"
+        android:text="Consultar" />
+
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/eliminar"
+        android:layout_alignParentBottom="true"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+
+</RelativeLayout>
